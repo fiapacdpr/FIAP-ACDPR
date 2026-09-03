@@ -1,0 +1,5 @@
+talhao,cultura,geometria,comprimento_m,largura_m,base_maior_m,base_menor_m,altura_m,area_m2,area_ha,espacamento_ruas_m,espacamento_plantas_m,numero_ruas,numero_plantas,produto,dose_g_planta,quantidade_insumo_kg,data_registro
+Açaizal Castanhal A,Açaí,Retângulo,100.0,80.0,,,,8000.0,0.8,5.0,5.0,17,357,NPK 10-20-10,150.0,53.55,2026-09-02
+Açaizal Igarapé-Miri B,Açaí,Retângulo,120.0,90.0,,,,10800.0,1.08,5.0,5.0,19,475,NPK 10-20-10,150.0,71.25,2026-09-02
+Mandiocal Baião A,Mandioca,Trapézio,,,120.0,100.0,80.0,8800.0,0.88,1.0,1.0,81,8991,NPK 10-28-20,20.0,179.82,2026-09-02
+Mandiocal Acará B,Mandioca,Trapézio,,,150.0,110.0,100.0,13000.0,1.3,1.0,1.0,101,13231,NPK 10-28-20,20.0,264.62,2026-09-02

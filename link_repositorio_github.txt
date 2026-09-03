@@ -1,0 +1,4 @@
+LINK DO REPOSITÓRIO GITHUB
+
+Substitua esta linha pela URL definitiva do repositório do grupo:
+https://github.com/USUARIO/NOME_DO_REPOSITORIO

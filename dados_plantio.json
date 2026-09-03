@@ -1,0 +1,80 @@
+[
+  {
+    "talhao": "Açaizal Castanhal A",
+    "cultura": "Açaí",
+    "geometria": "Retângulo",
+    "dimensoes": {
+      "comprimento_m": 100.0,
+      "largura_m": 80.0
+    },
+    "area_m2": 8000.0,
+    "area_ha": 0.8,
+    "espacamento_ruas_m": 5.0,
+    "espacamento_plantas_m": 5.0,
+    "numero_ruas": 17,
+    "numero_plantas": 357,
+    "produto": "NPK 10-20-10",
+    "dose_g_planta": 150.0,
+    "quantidade_insumo_kg": 53.55,
+    "data_registro": "2026-09-02"
+  },
+  {
+    "talhao": "Açaizal Igarapé-Miri B",
+    "cultura": "Açaí",
+    "geometria": "Retângulo",
+    "dimensoes": {
+      "comprimento_m": 120.0,
+      "largura_m": 90.0
+    },
+    "area_m2": 10800.0,
+    "area_ha": 1.08,
+    "espacamento_ruas_m": 5.0,
+    "espacamento_plantas_m": 5.0,
+    "numero_ruas": 19,
+    "numero_plantas": 475,
+    "produto": "NPK 10-20-10",
+    "dose_g_planta": 150.0,
+    "quantidade_insumo_kg": 71.25,
+    "data_registro": "2026-09-02"
+  },
+  {
+    "talhao": "Mandiocal Baião A",
+    "cultura": "Mandioca",
+    "geometria": "Trapézio",
+    "dimensoes": {
+      "base_maior_m": 120.0,
+      "base_menor_m": 100.0,
+      "altura_m": 80.0
+    },
+    "area_m2": 8800.0,
+    "area_ha": 0.88,
+    "espacamento_ruas_m": 1.0,
+    "espacamento_plantas_m": 1.0,
+    "numero_ruas": 81,
+    "numero_plantas": 8991,
+    "produto": "NPK 10-28-20",
+    "dose_g_planta": 20.0,
+    "quantidade_insumo_kg": 179.82,
+    "data_registro": "2026-09-02"
+  },
+  {
+    "talhao": "Mandiocal Acará B",
+    "cultura": "Mandioca",
+    "geometria": "Trapézio",
+    "dimensoes": {
+      "base_maior_m": 150.0,
+      "base_menor_m": 110.0,
+      "altura_m": 100.0
+    },
+    "area_m2": 13000.0,
+    "area_ha": 1.3,
+    "espacamento_ruas_m": 1.0,
+    "espacamento_plantas_m": 1.0,
+    "numero_ruas": 101,
+    "numero_plantas": 13231,
+    "produto": "NPK 10-28-20",
+    "dose_g_planta": 20.0,
+    "quantidade_insumo_kg": 264.62,
+    "data_registro": "2026-09-02"
+  }
+]
