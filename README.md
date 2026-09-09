@@ -26,7 +26,7 @@
 
 ## 📜 Descrição
 
-*O projeto desenvolvido para a **FarmTech Solutions** tem como objetivo aplicar conhecimentos de programação e análise de dados ao contexto da **Agricultura Digital**, simulando uma solução tecnológica para uma propriedade rural interessada em aumentar sua produtividade e melhorar o gerenciamento de suas atividades.
+O projeto desenvolvido para a **FarmTech Solutions** tem como objetivo aplicar conhecimentos de programação e análise de dados ao contexto da **Agricultura Digital**, simulando uma solução tecnológica para uma propriedade rural interessada em aumentar sua produtividade e melhorar o gerenciamento de suas atividades.
 
 Considerando a realidade agrícola do **Estado do Pará**, foram selecionadas duas culturas relevantes para a região. A primeira etapa consiste no desenvolvimento de uma aplicação em **Python**, capaz de cadastrar informações sobre as culturas, calcular as respectivas áreas de plantio e determinar a quantidade de insumos necessária para o manejo agrícola. Os dados são armazenados em vetores e manipulados por meio de um menu interativo que permite inserir, consultar, atualizar e excluir registros, além de encerrar o programa. A aplicação utiliza estruturas de decisão, repetição e funções, colocando em prática conceitos fundamentais de lógica de programação.
 
@@ -37,7 +37,6 @@ O projeto também utiliza o **GitHub** para versionamento dos códigos e colabor
 Além da parte tecnológica, o trabalho contempla uma atividade de Formação Social baseada em material acadêmico da **Embrapa**, proporcionando uma reflexão sobre tecnologia, agricultura e seus impactos sociais.
 
 Por fim, o funcionamento das aplicações será demonstrado em vídeo. Os códigos Python e R, o resumo acadêmico e o arquivo com o link do vídeo serão reunidos em um único arquivo ZIP para entrega, consolidando programação, estatística, colaboração e Agricultura Digital em uma solução integrada.
-*
 
 
 ## 📁 Estrutura de pastas
@@ -71,9 +70,9 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
     * 
 * 0.3.0 - XX/XX/2024
     * 
-* 0.2.0 - XX/XX/2024
+* 0.2.0 - 09/09/2026
     * 
-* 0.1.0 - XX/XX/2024
+* 0.1.0 - 03/09/2026
     *
 
 ## 📋 Licença
