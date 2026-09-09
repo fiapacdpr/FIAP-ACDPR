@@ -6,27 +6,38 @@
 
 <br>
 
-# Nome do projeto
+# Cap 1 - Play no seu Desenvolvimento como Dev
 
-## Nome do grupo
+## Nome do grupo: FIAP-ACDPR
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/in/%C3%A1lvaro-luiz-schumacker-boeira-j%C3%BAnior-5010b01a4/">Álvaro Luiz Schumacker Boeira Junior</a>
+- <a href="https://www.linkedin.com/in/clara-gava-6204633a1/">Clara Salles Gava</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Daniel Ferrucio Mioni</a> 
+- <a href="https://www.linkedin.com/company/inova-fusca">Rodrigo Verçosa</a> 
+- <a href="https://www.linkedin.com/in/patrickazevedo/">Patrick de Azevedo Ferreira</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- <a href="https://www.linkedin.com/in/sabrina-otoni-22525519b/">Sabrina Otoni</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi</a>
 
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+*O projeto desenvolvido para a **FarmTech Solutions** tem como objetivo aplicar conhecimentos de programação e análise de dados ao contexto da **Agricultura Digital**, simulando uma solução tecnológica para uma propriedade rural interessada em aumentar sua produtividade e melhorar o gerenciamento de suas atividades.
+
+Considerando a realidade agrícola do **Estado do Pará**, foram selecionadas duas culturas relevantes para a região. A primeira etapa consiste no desenvolvimento de uma aplicação em **Python**, capaz de cadastrar informações sobre as culturas, calcular as respectivas áreas de plantio e determinar a quantidade de insumos necessária para o manejo agrícola. Os dados são armazenados em vetores e manipulados por meio de um menu interativo que permite inserir, consultar, atualizar e excluir registros, além de encerrar o programa. A aplicação utiliza estruturas de decisão, repetição e funções, colocando em prática conceitos fundamentais de lógica de programação.
+
+Na segunda etapa, os dados produzidos são utilizados em uma aplicação desenvolvida em **R**, responsável pela realização de análises estatísticas básicas, incluindo cálculos de média e desvio-padrão. Como funcionalidade adicional, o programa em R também realiza a conexão com uma **API meteorológica pública**, permitindo consultar e apresentar informações climáticas no terminal. Essa integração demonstra como dados externos podem auxiliar o planejamento das atividades agrícolas.
+
+O projeto também utiliza o **GitHub** para versionamento dos códigos e colaboração entre os integrantes do grupo, simulando práticas adotadas profissionalmente por equipes de desenvolvimento de software.
+
+Além da parte tecnológica, o trabalho contempla uma atividade de Formação Social baseada em material acadêmico da **Embrapa**, proporcionando uma reflexão sobre tecnologia, agricultura e seus impactos sociais.
+
+Por fim, o funcionamento das aplicações será demonstrado em vídeo. Os códigos Python e R, o resumo acadêmico e o arquivo com o link do vídeo serão reunidos em um único arquivo ZIP para entrega, consolidando programação, estatística, colaboração e Agricultura Digital em uma solução integrada.
+*
 
 
 ## 📁 Estrutura de pastas
