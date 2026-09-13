@@ -1,5 +1,7 @@
 # FarmTech Solutions - Agricultura Digital no Pará
 
+# <b>VERSÃO ANTERIOR DO README.MD DA RAIZ DO REPOSITÓRIO</b>
+
 Projeto acadêmico desenvolvido para a FIAP com duas culturas relevantes para o Pará: **açaí** e **mandioca**. O sistema calcula área, estima ruas e plantas, dimensiona insumo, mantém os dados em vetor, realiza CRUD e exporta os registros para análise em R.
 
 ## Entregas incluídas
