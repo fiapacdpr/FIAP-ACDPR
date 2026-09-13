@@ -26,17 +26,15 @@
 
 ## 📜 Descrição
 
-O projeto desenvolvido para a **FarmTech Solutions** tem como objetivo aplicar conhecimentos de programação e análise de dados ao contexto da **Agricultura Digital**, simulando uma solução tecnológica para uma propriedade rural interessada em aumentar sua produtividade e melhorar o gerenciamento de suas atividades.
+O projeto da **FarmTech Solutions** aplica programação e análise de dados à **Agricultura Digital**, desenvolvendo uma solução para apoiar o gerenciamento de duas culturas relevantes do Estado do Pará: : **açaí** e **mandioca**.
 
-Considerando a realidade agrícola do **Estado do Pará**, foram selecionadas duas culturas relevantes para a região. A primeira etapa consiste no desenvolvimento de uma aplicação em **Python**, capaz de cadastrar informações sobre as culturas, calcular as respectivas áreas de plantio e determinar a quantidade de insumos necessária para o manejo agrícola. Os dados são armazenados em vetores e manipulados por meio de um menu interativo que permite inserir, consultar, atualizar e excluir registros, além de encerrar o programa. A aplicação utiliza estruturas de decisão, repetição e funções, colocando em prática conceitos fundamentais de lógica de programação.
+Em **Python**, a aplicação permite cadastrar culturas, calcular áreas de plantio e determinar a quantidade necessária de insumos. Os dados são armazenados em vetores e gerenciados por um menu que possibilita inserir, consultar, atualizar e excluir registros. O programa utiliza estruturas de decisão, repetição e funções.
 
-Na segunda etapa, os dados produzidos são utilizados em uma aplicação desenvolvida em **R**, responsável pela realização de análises estatísticas básicas, incluindo cálculos de média e desvio-padrão. Como funcionalidade adicional, o programa em R também realiza a conexão com uma **API meteorológica pública**, permitindo consultar e apresentar informações climáticas no terminal. Essa integração demonstra como dados externos podem auxiliar o planejamento das atividades agrícolas.
+Em **R**, os dados são utilizados para análises estatísticas, incluindo média e desvio-padrão. INDO ALÉM, a aplicação também consulta uma **API meteorológica pública**, apresentando informações climáticas que podem auxiliar o planejamento agrícola.
 
-O projeto também utiliza o **GitHub** para versionamento dos códigos e colaboração entre os integrantes do grupo, simulando práticas adotadas profissionalmente por equipes de desenvolvimento de software.
+O **GitHub** é utilizado para versionamento e desenvolvimento colaborativo. O projeto também inclui uma atividade de Formação Social baseada em material da **Embrapa**, relacionando tecnologia, agricultura e impactos sociais.
 
-Além da parte tecnológica, o trabalho contempla uma atividade de Formação Social baseada em material acadêmico da **Embrapa**, proporcionando uma reflexão sobre tecnologia, agricultura e seus impactos sociais.
-
-Por fim, o funcionamento das aplicações será demonstrado em vídeo. Os códigos Python e R, o resumo acadêmico e o arquivo com o link do vídeo serão reunidos em um único arquivo ZIP para entrega, consolidando programação, estatística, colaboração e Agricultura Digital em uma solução integrada.
+Por fim, o funcionamento das aplicações Python e R será demonstrado em vídeo. Os códigos, o resumo acadêmico e o link do vídeo serão reunidos em um arquivo ZIP, consolidando programação, estatística, colaboração e Agricultura Digital.
 
 
 ## 📁 Estrutura de pastas
@@ -51,24 +49,102 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
 
+- <b>IR-ALEM</b>: usando o R, aqui está a conexão a uma API meteorológica pública para coletar dados climáticos, processar e exibir as informações meteorológicas via texto simples no terminal.
+
 - <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
 
 - <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
 
 - <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
+## Entregas incluídas
+
+- `farmtech.py`: aplicação Python com menu, vetores, cálculos, decisões e loops;
+- `dados_plantio.json`: persistência do vetor com quatro registros demonstrativos;
+- `dados_plantio.csv`: integração entre Python e R;
+- `analise_estatistica.R`: média, mediana, desvio-padrão, mínimo e máximo;
+- `clima_api.R`: consulta à API pública Open-Meteo para cinco municípios paraenses (IR ALÉM);
+- `resumo_artigo_vant.docx` e `resumo_artigo_vant.pdf`: resumo de uma página;
+- `ROTEIRO_VIDEO.md`: roteiro para vídeo de até cinco minutos;
+- `link_video_youtube.md` e `link_repositorio_github.md`: arquivos com informações do vídeo do YouTube e o link do repositório;
+- `CONTRIBUICAO_GITHUB.md`: fluxo colaborativo sugerido (simulação);
+- `CHECKLIST_ENTREGA.md`: conferência final.
+
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+Requisito: Python 3.10 ou superior. Não há dependências externas.
+Pasta: scripts/
 
+```bash
+python farmtech.py
+```
+
+O menu permite incluir, listar, atualizar ou excluir uma posição do vetor. Todas as alterações são gravadas em JSON e exportadas para CSV. Os dados iniciais são exemplos fictícios de municípios do Pará e podem ser alterados durante o vídeo.
+
+### Testes automatizados
+
+Na pasta do projeto, execute:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+#### Como executar a análise em R
+
+Requisito: R 4.1 ou superior.
+Pastas: /scripts e /assets
+
+```bash
+Rscript analise_estatistica.R
+```
+
+O script lê `dados_plantio.csv`, apresenta as estatísticas no terminal e gera, em `saida_R`, um CSV consolidado e um gráfico PNG.
+
+### Como executar a API meteorológica em R
+
+Pastas: /scripts e /IR-ALEM
+
+Primeiro instale a única dependência:
+
+```bash
+Rscript instalar_pacotes.R
+```
+
+Depois execute:
+
+```bash
+Rscript clima_api.R
+```
+
+Escolha Belém, Santarém, Marabá, Castanhal ou Altamira. A consulta usa a Open-Meteo, não exige chave e mostra condição atual e previsão de sete dias em texto no terminal. É necessário acesso à internet.
+
+## Regras de cálculo
+
+### Açaí - retângulo
+
+- Área: `comprimento × largura`;
+- número de ruas: `piso(largura / espaçamento entre ruas) + 1`;
+- plantas por rua: `piso(comprimento / espaçamento entre plantas) + 1`;
+- insumo: `número de plantas × dose em g / 1.000`.
+
+O padrão didático é 5 m × 5 m, coerente com orientações técnicas da Embrapa para cultivo em terra firme.
+
+### Mandioca - trapézio
+
+- Área: `(base maior + base menor) × altura / 2`;
+- comprimento médio das ruas: `(base maior + base menor) / 2`;
+- estimativa de ruas e plantas conforme os espaçamentos informados;
+- insumo: `número de plantas × dose em g / 1.000`.
+
+O padrão didático é 1 m × 1 m, utilizado no Trio da Produtividade da Mandioca em experiências no Pará.
+
+## Observação agronômica
+
+As doses iniciais e os registros são exclusivamente demonstrativos. Recomendação de fertilizantes ou defensivos deve considerar cultura, fase, solo, clima, rótulo do produto e orientação de engenheiro agrônomo.
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
+* 0.3.0 - 13/09/2026
     * 
 * 0.2.0 - 09/09/2026
     * 
