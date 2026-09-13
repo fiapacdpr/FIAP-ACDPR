@@ -96,7 +96,7 @@ Rscript analise_estatistica.R
 
 O script lê `dados_plantio.csv`, apresenta as estatísticas no terminal e gera, em `saida_R`, um CSV consolidado e um gráfico PNG.
 
-### IR ALÉM: Como executar a API meteorológica em R
+#### IR ALÉM: Como executar a API meteorológica em R
 
 Pasta: /scripts
 
@@ -108,7 +108,7 @@ Rscript instalar_pacotes.R
 
 Depois execute:
 
-Pasta: ssrc/IR-ALEM
+Pasta: src/IR-ALEM
 
 ```bash
 Rscript clima_api.R
