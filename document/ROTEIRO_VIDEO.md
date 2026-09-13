@@ -36,4 +36,4 @@ Concluir que a solução integra cadastro agrícola, cálculo, estatística, dad
 - fechar notificações e ocultar dados pessoais;
 - testar Python, R e internet antes de gravar;
 - gravar em 1080p, se possível;
-- publicar como **não listado** e colar a URL em `link_video_youtube.txt`.
+- publicar como **não listado** e colar a URL em `link_video_youtube.md`.
