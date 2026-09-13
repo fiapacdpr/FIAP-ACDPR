@@ -1,10 +1,12 @@
 # Versionamento colaborativo no GitHub
 
-## Divisão sugerida
+# OBS.: Isso somente é uma simulação do que faríamos na vida real. As branches não foram criadas.
 
-1. Integrante A: aplicação Python e testes.
-2. Integrante B: estatística e API meteorológica em R.
-3. Integrante C: resumo do artigo e referências.
+## Divisão
+
+1. Patrick de Azevedo: aplicação Python e testes.
+2. Clara Gava: estatística e API meteorológica em R.
+3. Daniel Mioni, Álvaro Schumacker, Rodrigo Verçosa: resumo do artigo e referências.
 4. Todos: testes integrados, revisão e vídeo.
 
 ## Fluxo recomendado
@@ -12,7 +14,7 @@
 O responsável cria um repositório público ou privado e adiciona os colegas como colaboradores. Cada integrante trabalha em uma branch própria:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/fiapacdpr/FIAP-ACDPR
 git switch -c feature/python-crud
 git add farmtech.py tests/
 git commit -m "feat: implementa CRUD e cálculos agrícolas"
