@@ -30,7 +30,7 @@ O projeto da **FarmTech Solutions** aplica programação e análise de dados à 
 
 Em **Python**, a aplicação permite cadastrar culturas, calcular áreas de plantio e determinar a quantidade necessária de insumos. Os dados são armazenados em vetores e gerenciados por um menu que possibilita inserir, consultar, atualizar e excluir registros. O programa utiliza estruturas de decisão, repetição e funções.
 
-Em **R**, os dados são utilizados para análises estatísticas, incluindo média e desvio-padrão. INDO ALÉM, a aplicação também consulta uma **API meteorológica pública**, apresentando informações climáticas que podem auxiliar o planejamento agrícola.
+Em **R**, os dados são utilizados para análises estatísticas, incluindo média e desvio-padrão. INDO ALÉM, há também uma aplicação que consulta uma **API meteorológica pública**, apresentando informações climáticas que podem auxiliar o planejamento agrícola.
 
 O **GitHub** é utilizado para versionamento e desenvolvimento colaborativo. O projeto também inclui uma atividade de Formação Social baseada em material da **Embrapa**, relacionando tecnologia, agricultura e impactos sociais.
 
@@ -43,17 +43,18 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
+- <b>assets</b>: deste repositório, aqui estão os arquivos relacionados a elementos estruturados, como .csv; semiestruturados, como .json; não-estruturadoa, como imagens.
 
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
+- <b>config</b>: estão posicionados aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
 
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
+- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir, como o resumo do artigo "Uso de veículos aéreos não tripulados 
+(VANT) em Agricultura de Precisão". Na subpasta "other", adicione documentos complementares e menos importantes.
 
-- <b>IR-ALEM</b>: usando o R, aqui está a conexão a uma API meteorológica pública para coletar dados climáticos, processar e exibir as informações meteorológicas via texto simples no terminal.
+- <b>scripts</b>: Posiciona-se aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
 
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
+- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo da Fase 1.
 
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
+- <b>src/IR-ALEM</b>: usando o R, aqui está a conexão a uma API meteorológica pública para coletar dados climáticos, processar e exibir as informações meteorológicas via texto simples no terminal.
 
 - <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
@@ -67,13 +68,15 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - `resumo_artigo_vant.docx` e `resumo_artigo_vant.pdf`: resumo de uma página;
 - `ROTEIRO_VIDEO.md`: roteiro para vídeo de até cinco minutos;
 - `link_video_youtube.md` e `link_repositorio_github.md`: arquivos com informações do vídeo do YouTube e o link do repositório;
+- `areas_por_talhao.png` e `estatisticas_por_cultura.csv`: arquivos as saídas dos scripts em R;
 - `CONTRIBUICAO_GITHUB.md`: fluxo colaborativo sugerido (simulação);
 - `CHECKLIST_ENTREGA.md`: conferência final.
 
 ## 🔧 Como executar o código
 
 Requisito: Python 3.10 ou superior. Não há dependências externas.
-Pasta: scripts/
+
+Pasta: src/
 
 ```bash
 python farmtech.py
@@ -81,18 +84,11 @@ python farmtech.py
 
 O menu permite incluir, listar, atualizar ou excluir uma posição do vetor. Todas as alterações são gravadas em JSON e exportadas para CSV. Os dados iniciais são exemplos fictícios de municípios do Pará e podem ser alterados durante o vídeo.
 
-### Testes automatizados
-
-Na pasta do projeto, execute:
-
-```bash
-python -m unittest discover -s tests -v
-```
-
 #### Como executar a análise em R
 
 Requisito: R 4.1 ou superior.
-Pastas: /scripts e /assets
+
+Pasta: /src
 
 ```bash
 Rscript analise_estatistica.R
@@ -100,9 +96,9 @@ Rscript analise_estatistica.R
 
 O script lê `dados_plantio.csv`, apresenta as estatísticas no terminal e gera, em `saida_R`, um CSV consolidado e um gráfico PNG.
 
-### Como executar a API meteorológica em R
+### IR ALÉM: Como executar a API meteorológica em R
 
-Pastas: /scripts e /IR-ALEM
+Pasta: /scripts
 
 Primeiro instale a única dependência:
 
@@ -111,6 +107,8 @@ Rscript instalar_pacotes.R
 ```
 
 Depois execute:
+
+Pasta: ssrc/IR-ALEM
 
 ```bash
 Rscript clima_api.R
