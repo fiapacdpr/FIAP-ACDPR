@@ -101,7 +101,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 Requisito: Python 3.10 ou superior. Não há dependências externas.
 
-Pasta: src/
+Pasta: /src
 
 ```bash
 python farmtech.py
@@ -133,7 +133,7 @@ Rscript instalar_pacotes.R
 
 Depois execute:
 
-Pasta: src/IR-ALEM
+Pasta: /src/IR-ALEM
 
 ```bash
 Rscript clima_api.R
