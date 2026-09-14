@@ -13,7 +13,7 @@
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/%C3%A1lvaro-luiz-schumacker-boeira-j%C3%BAnior-5010b01a4/">Álvaro Luiz Schumacker Boeira Junior</a>
 - <a href="https://www.linkedin.com/in/clara-gava-6204633a1/">Clara Salles Gava</a>
-- <a href="mailto:danielmioni@hotmail.com">Daniel Ferrucio Mioni</a> 
+- <a href="https://www.linkedin.com/in/daniel-mioni-6b7bb434/">Daniel Ferrucio Mioni</a> 
 - <a href="mailto:rodrigo.vercosa2011@gmail.com">Rodrigo Verçosa</a> 
 - <a href="https://www.linkedin.com/in/patrickazevedo/">Patrick de Azevedo Ferreira</a>
 
