@@ -37,6 +37,31 @@ O **GitHub** é utilizado para versionamento e desenvolvimento colaborativo. O p
 Por fim, o funcionamento das aplicações Python e R será demonstrado em vídeo. Os códigos, o resumo acadêmico e o link do vídeo serão reunidos em um arquivo ZIP, consolidando programação, estatística, colaboração e Agricultura Digital.
 
 
+## Regras de cálculo
+
+### Açaí - retângulo
+
+- Área: `comprimento × largura`;
+- número de ruas: `piso(largura / espaçamento entre ruas) + 1`;
+- plantas por rua: `piso(comprimento / espaçamento entre plantas) + 1`;
+- insumo: `número de plantas × dose em g / 1.000`.
+
+O padrão didático é 5 m × 5 m, coerente com orientações técnicas da Embrapa para cultivo em terra firme.
+
+### Mandioca - trapézio
+
+- Área: `(base maior + base menor) × altura / 2`;
+- comprimento médio das ruas: `(base maior + base menor) / 2`;
+- estimativa de ruas e plantas conforme os espaçamentos informados;
+- insumo: `número de plantas × dose em g / 1.000`.
+
+O padrão didático é 1 m × 1 m, utilizado no Trio da Produtividade da Mandioca em experiências no Pará.
+
+## Observação agronômica
+
+As doses iniciais e os registros são exclusivamente demonstrativos. Recomendação de fertilizantes ou defensivos deve considerar cultura, fase, solo, clima, rótulo do produto e orientação de engenheiro agrônomo.
+
+
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
@@ -116,32 +141,10 @@ Rscript clima_api.R
 
 Escolha Belém, Santarém, Marabá, Castanhal ou Altamira. A consulta usa a Open-Meteo, não exige chave e mostra condição atual e previsão de sete dias em texto no terminal. É necessário acesso à internet.
 
-## Regras de cálculo
-
-### Açaí - retângulo
-
-- Área: `comprimento × largura`;
-- número de ruas: `piso(largura / espaçamento entre ruas) + 1`;
-- plantas por rua: `piso(comprimento / espaçamento entre plantas) + 1`;
-- insumo: `número de plantas × dose em g / 1.000`.
-
-O padrão didático é 5 m × 5 m, coerente com orientações técnicas da Embrapa para cultivo em terra firme.
-
-### Mandioca - trapézio
-
-- Área: `(base maior + base menor) × altura / 2`;
-- comprimento médio das ruas: `(base maior + base menor) / 2`;
-- estimativa de ruas e plantas conforme os espaçamentos informados;
-- insumo: `número de plantas × dose em g / 1.000`.
-
-O padrão didático é 1 m × 1 m, utilizado no Trio da Produtividade da Mandioca em experiências no Pará.
-
-## Observação agronômica
-
-As doses iniciais e os registros são exclusivamente demonstrativos. Recomendação de fertilizantes ou defensivos deve considerar cultura, fase, solo, clima, rótulo do produto e orientação de engenheiro agrônomo.
-
 ## 🗃 Histórico de lançamentos
 
+* 0.4.0 - 14/09/2026
+    * 
 * 0.3.0 - 13/09/2026
     * 
 * 0.2.0 - 09/09/2026
