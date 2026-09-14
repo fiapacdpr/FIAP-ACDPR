@@ -92,7 +92,8 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - `clima_api.R`: consulta à API pública Open-Meteo para cinco municípios paraenses (IR ALÉM);
 - `resumo_artigo_vant.docx` e `resumo_artigo_vant.pdf`: resumo de uma página;
 - `ROTEIRO_VIDEO.md`: roteiro para vídeo de até cinco minutos;
-- `link_video_youtube.md` e `link_repositorio_github.md`: arquivos com informações do vídeo do YouTube e o link do repositório;
+- `link_video_youtube.md` e `link_video_youtube.txt`: arquivos com informações do vídeo do YouTube;
+- `link_repositorio_github.md`: arquivo com informação do link do repositório;
 - `areas_por_talhao.png` e `estatisticas_por_cultura.csv`: arquivos as saídas dos scripts em R;
 - `CONTRIBUICAO_GITHUB.md`: fluxo colaborativo sugerido (simulação);
 - `CHECKLIST_ENTREGA.md`: conferência final.
